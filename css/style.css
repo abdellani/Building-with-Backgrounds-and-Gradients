@@ -96,3 +96,37 @@ nav ul li:last-of-type{
 #principle-menu div:nth-child(4){
   background-image: url(../images/image_4.jpg)
 }
+
+footer{
+  margin: auto;
+  margin-top:10px;
+  width: 90%;
+  color: #6e6e6e;
+  font-size: 13px;
+}
+#part-1{
+  position: relative;
+  float: left;
+  width: 40%;
+}
+#part-2{
+  float: right;
+  width: 60%;
+}
+#part-2 ul {
+  list-style: none;
+  margin-top:0; 
+}
+#part-2 ul li:first-child{
+  border-left: none;
+}
+
+#part-2 ul li{
+  display: inline-block;
+  border-left:1px solid #cccccc; 
+  margin-left:3px;
+  padding-left:3px;
+}
+.clear{
+  clear: both;
+}
