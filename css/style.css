@@ -14,6 +14,8 @@ nav input{
   border:1px solid #2f2f2f;
   border-radius: 15px;
   padding-left:10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 nav img{
   height: 15px;
@@ -29,6 +31,7 @@ nav ul{
   display:flex;
   justify-content: space-between;
   align-items: center;
+  padding-left:0px;
 }
 nav ul li{
   box-sizing: border-box;
@@ -82,6 +85,7 @@ nav ul li:last-of-type{
   width: 25%;
   height: 200px;
   float: left;
+  padding:4px;
   background-color: black;
 }
 #principle-menu div:nth-child(1){
@@ -100,18 +104,18 @@ nav ul li:last-of-type{
 footer{
   margin: auto;
   margin-top:10px;
-  width: 90%;
+  width: 80%;
   color: #6e6e6e;
-  font-size: 13px;
+  font-size: 10px;
 }
 #part-1{
-  position: relative;
   float: left;
-  width: 40%;
+  width: 45%;
 }
 #part-2{
   float: right;
-  width: 60%;
+  width: 55%;
+  margin-top: 0px;
 }
 #part-2 ul {
   list-style: none;
