@@ -8,6 +8,14 @@ nav {
   margin-left: -37%;
   top:110px;
 }
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
 nav input{
   max-width:105px;
   background-color: transparent;
