@@ -56,13 +56,10 @@ nav ul li:last-of-type{
 }
 
 main{
+  padding:0;
+  margin-top:0;
   min-width: 1024px;
-}
-#container{
- padding:0;
- margin:0;
- min-width: 1024px;
-}
+ }
 #main{
   box-sizing: border-box;
   background:black;
@@ -73,23 +70,41 @@ main{
   margin-bottom: 5px; 
   margin-top:0px;
 }
-#main div {
+#main a {
   color:white;
   margin: auto;
   text-align: center;
   font-weight: lighter;
+  text-decoration: none;
+  display: block;
 }
-#main div:nth-child(1) {
-  padding-top:200px;
-  font-size: 50px;
+#main a:nth-child(1) div {
+  margin: auto;
+  padding-top: 200px;
+  width:980px;
+  height: 104px;
+  background-image: url(../images/main_text_1.png);
+  background-position-y: 200px;
+  background-repeat: no-repeat;
 }
-#main div:nth-child(2) {
-  font-size: 30px;
-  margin-top:20px; 
+
+#main a:nth-child(2) div {
+  margin: auto;
+  width:980px;
+  height: 104px;
+  background-image: url(../images/main_text_2.png);
+  background-position-y: -10px;
+  background-repeat: no-repeat;
 }
-#main div:nth-child(3) {
-  font-size: 20px;
-  margin-top:20px; 
+#main a:nth-child(3) {
+  margin: auto;
+  width:980px;
+  height: 32px;
+  background-image: url(../images/main_text_3.png);
+  background-repeat: no-repeat;
+}
+#main a:nth-child(3):hover {
+  background-position-y: -34px;
 }
 
 .principle-menu-items a{
@@ -108,7 +123,6 @@ main{
 }
 #principle-menu div:nth-child(1){
   background-image: url(../images/image_1.jpg);
-
 }
 #principle-menu div:nth-child(2){
   background-image: url(../images/image_2.jpg)
