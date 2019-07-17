@@ -17,6 +17,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav input:focus{
+  background-color: white;
+  max-width:200px;
+}
 nav input{
   max-width:105px;
   background-color: transparent;
